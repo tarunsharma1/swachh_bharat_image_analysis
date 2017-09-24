@@ -1,0 +1,6 @@
+./tools/test_net.py --gpu 0 --def models/CaffeNet/test.prototxt --net ./caffenet_fast_rcnn_iter_25000.caffemodel --imdb inria_test
+./tools/train_net.py --gpu 0 --solver models/CaffeNet/solver.prototxt --imdb inria_train --weights net_surgery_40000_iter.caffemodel 
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/mesa/
+export PYTHONPATH=$PYTHONPATH:/usr/lib/x86_64-linux-gnu/mesa/

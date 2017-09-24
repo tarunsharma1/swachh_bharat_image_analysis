@@ -1,0 +1,6 @@
+Image filename : "/home/tarunzeeshan/Downloads/garbage_645/GARBAGE/data/Images/1559.jpg"
+Image size (X x Y x C) : 640 x 360 x 3
+Objects with ground truth : 1 { "Garbage" }
+Original label for object 1 "Garbage" : "Garbage" 
+Center point on object 1 "Garbage" (X, Y) : (217,452)
+Bounding box for object 1 "Garbage" (Xmin, Ymin) - (Xmax, Ymax) : (95,376) - (339,528)
