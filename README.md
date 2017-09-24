@@ -7,3 +7,6 @@ Before - After spot fix detection using fc7 features from a network trained on M
 
 Spatio Temporal heatmap to visualize garbage distribution around the city. 
 Code for assigning priority to every dump using Google Places API.
+
+
+Fast RCNN is in Caffe. Code modified from https://github.com/zeyuanxy/fast-rcnn
